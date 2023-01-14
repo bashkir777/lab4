@@ -5,7 +5,7 @@ import Errors.InteractionImpossible;
 import Errors.PropellerBroken;
 
 public class Main {
-    public static void main(String[] args) throws InteractionImpossible {
+    public static void main(String[] args){
         Place street = new Place("улица");
         Place cafe = new Place("молочное кафе в соседнем доме");
         Place room = new Place("комната");
