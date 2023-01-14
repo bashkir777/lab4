@@ -46,7 +46,7 @@ public class Main {
         try{
             carl.fly();
         }catch (PropellerBroken e){
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
         boy.setCondition(Conditions.HAPPY);
     }
